@@ -1,0 +1,9 @@
+tensorflow
+streamlit
+plotly
+paho-mqtt
+AWSIoTPythonSDK
+pandas
+numpy
+requests
+scikit-learn
