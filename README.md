@@ -181,8 +181,7 @@ scikit-learn
 
 ##  Author
 
-**Wahid** — B.Tech Computer Science Engineering (AI & Analytics)  
-Specialization: IoT, Cloud Computing, and Machine Learning  
+**Wahid** — B.Tech Computer Science Engineering (AI & Analytics)   
 [https://github.com/Wahid-04](https://github.com/Wahid-04)
 
 ---
