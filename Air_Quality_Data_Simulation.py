@@ -66,7 +66,7 @@ OPENWEATHER_API_KEY = "YOUR_API_KEY_HERE"
 LATITUDE = 18.490614
 LONGITUDE = 74.022078
 
-# AWS IoT Core Endpoint (public, safe to share)
+# AWS IoT Core Endpoint 
 ENDPOINT = "a2ah52dbj7kv15-ats.iot.eu-north-1.amazonaws.com"
 CLIENT_ID = "air-quality-publisher"
 TOPIC = "airquality/data"
@@ -223,5 +223,6 @@ except KeyboardInterrupt:
     print("\nStopping... Disconnecting.")
     mqtt_client.disconnect()
     print("✓ Disconnected successfully.\n")
+
 
 
