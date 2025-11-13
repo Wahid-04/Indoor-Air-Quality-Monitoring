@@ -8,7 +8,7 @@ from tensorflow.keras.models import load_model
 import pickle
 
 print("=" * 90)
-print("STEP 5: INTEGRATED AIR QUALITY MONITORING WITH LSTM PREDICTIONS (SAFE VERSION)")
+print("STEP 5: INTEGRATED AIR QUALITY MONITORING WITH LSTM PREDICTIONS ")
 print("=" * 90)
 
 # ================================================================
@@ -58,7 +58,7 @@ def ventilation_suggestion(indoor_pm25, outdoor_pm25):
 
 
 # ================================================================
-# Configuration (SAFE)
+# Configuration 
 # ================================================================
 
 OPENWEATHER_API_KEY = "YOUR_API_KEY_HERE"
@@ -223,4 +223,5 @@ except KeyboardInterrupt:
     print("\nStopping... Disconnecting.")
     mqtt_client.disconnect()
     print("✓ Disconnected successfully.\n")
+
 
